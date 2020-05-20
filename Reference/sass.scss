@@ -1,0 +1,60 @@
+
+$color:#093d2c;
+$headclr:#002963;
+$size:30px;
+
+%msg{
+
+	
+	text-align:center;
+	color:$color;
+	text-decoration:none;
+	
+
+}
+
+.container-fluid {
+text-align:center;
+
+}
+
+.ref{
+
+	h1{
+	@extend %msg;
+	color:$headclr;
+
+	}
+
+	ol{
+	@extend %msg;
+	font-size:$size;
+
+	}
+
+	p{
+		@extend %msg;
+		font-size:$size;
+		color:white;
+		}
+	a{
+		@extend %msg;
+	}	
+
+}
+
+
+.row > a:hover{
+			
+			text-decoration:none;
+			
+		}
+		
+.col-sm-6 p:hover {
+			color: $color;
+				}
+
+
+
+
+

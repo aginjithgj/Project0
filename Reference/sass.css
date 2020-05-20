@@ -1,0 +1,29 @@
+.ref a, .ref p, .ref ol, .ref h1 {
+  text-align: center;
+  color: #093d2c;
+  text-decoration: none;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+.ref h1 {
+  color: #002963;
+}
+.ref ol {
+  font-size: 30px;
+}
+.ref p {
+  font-size: 30px;
+  color: white;
+}
+.row > a:hover {
+  text-decoration: none;
+}
+
+.col-sm-6 p:hover {
+  color: #093d2c;
+}
+
+/*# sourceMappingURL=sass.css.map */

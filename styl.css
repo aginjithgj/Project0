@@ -1,0 +1,578 @@
+*
+{
+	margin: 0;
+	padding: 0;	
+}
+
+
+.logo a{
+	position: absolute;
+	margin-top: -320px;
+	margin-left:-650px;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family:sans-serif;	
+	text-decoration:none;
+	}
+
+
+.image-box 
+{
+  position: relative;
+}
+
+
+.background,
+.overlay {
+  position: absolute;
+  left: 0;	
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.background {
+  background: var(--image-url) center center no-repeat;
+  background-size: cover;
+
+  z-index: 1;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.1);
+
+  z-index: 2;
+}
+
+
+.content1 {
+  position: relative;
+
+  z-index: 3;
+
+  /* Finally, style and place the content */
+ /* color: rgb(0, 172, 230,10);*/
+  min-height: 97vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+/*Adding some block text from the web page*/
+
+#center {
+	       position: absolute;
+		   left:-60;
+           margin-top :70px;
+	       margin-left:-20px;
+           border: /*1px solid #ccc;*/ height: 200px; width: 250px;}
+
+#center a{
+	
+	letter-spacing:2px;
+	font-size: 42px;
+	margin-left:auto;
+	margin-right:auto;
+	text-transform: uppercase;
+	color: #fff;
+    width:4em;
+	text-decoration: none;
+	
+	}
+	
+	
+	.sen{
+		position: absolute;
+	}
+	
+	p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 4em;
+	font-size: 42px;
+	text-decoration:none;
+	
+}
+
+/*Adding name to braches 1*/
+
+#branch1 {
+	       position: absolute;
+		   /*left:-60;*/
+           margin-top :-290px;
+	       margin-left:420px;
+           border: /*1px solid #ccc;*/height: 150px; width: 150px;}
+
+#branch1 p{
+	
+	letter-spacing:2px;
+	font-size: 38px;
+	margin-top:150px;
+	margin-left:30px;
+	margin-right:auto;
+	text-transform: uppercase;
+	color: #fff;	
+	
+    width:4em;
+	text-decoration:none;
+	}
+	
+
+
+/*brach 2*/
+#branch2 {
+	       position: absolute;
+		   /*left:-60;*/
+           margin-top :-80px;
+	       margin-left:350px;
+           border: /*1px solid #ccc; */height: 150px; width: 310px;}
+
+#branch2 p{
+	
+	letter-spacing:2px;
+	font-size: 38px;
+	margin-left:153px;
+	margin-right:auto;
+	text-transform: uppercase;
+	color: #fff;
+	
+	
+    width:4em;
+	/*text-decoration:none;*/
+	}
+	
+	
+	
+
+/*Barnching 3*/
+
+
+#branch3 {
+	       position: absolute;
+		   /*left:-60;*/
+           margin-top :140px;
+	       margin-left:420px;
+           border: /*1px solid #ccc;*/height: 150px; width: 150px;
+		   }
+
+#branch3 p{
+	
+	letter-spacing:2px;
+	font-size: 38px;
+	margin-top:105px;
+	margin-left:auto;
+	margin-right:auto;
+	text-transform: uppercase;
+	color: #fff;
+	
+	
+    width:4em;
+	text-decoration:none;
+	}
+	
+/*Branch 4*/	
+
+
+#branch4 {
+	       position: absolute;
+		   /*left:-60;*/
+           margin-top :-290px;
+	       margin-left:-590px;
+           /*border: 1px solid #ccc;*/height: 150px; width: 170px;
+		   }
+
+#branch4 p{
+	
+	letter-spacing:2px;
+	font-size: 38px;
+	margin-top:105px;
+	margin-left:auto;
+	margin-right:auto;
+	text-transform: uppercase;
+	color: #fff;
+	
+	
+    width:4em;
+	text-decoration:none;
+	}
+	
+
+/*Branch 5*/	
+
+
+#branch5 {
+	       position: absolute;
+		   /*left:-60;*/
+           margin-top :-80px;
+	       margin-left:-510px;
+           border: /*1px solid #ccc;*/height: 150px; width: 170px;
+		   }
+
+#branch5 p{
+	
+	letter-spacing:2px;
+	font-size: 38px;
+	margin-top:115 	px;
+	margin-left:-40px;
+	margin-right:auto;
+	text-transform: uppercase;
+	color: #fff;
+	
+	
+    width:4em;
+	text-decoration:none;
+	}
+
+
+/*Branch 6*/	
+
+
+#branch6 
+          {
+	       position: absolute;
+		   /*left:-60;*/
+           margin-top :140px;
+	       margin-left:-590px;
+           border: /*1px solid #ccc*/;height: 150px; width: 170px;
+		   }
+
+#branch6 p
+{
+	
+	letter-spacing:2px;
+	font-size: 38px;
+	margin-top:105px;
+	margin-left:-80px;
+	margin-right:auto;
+	text-transform: uppercase;
+	color: #fff;
+	
+	
+    width:20em;
+	text-decoration:none;
+	}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+/*STYLE OF STORM*/
+/*@media(max-width: 499px)
+{
+	.flod {
+		display: none;
+	}
+} */
+
+*
+
+.contaner
+{
+	
+	display:flex;
+	flex-wrap: wrap;
+	
+}
+
+.contaner > div
+{
+	background-color: springgreen;
+			width: 580px;
+	margin:40px;
+	padding:20px;
+	
+}
+
+
+
+/*.storm
+{
+	 
+           border: 1px solid #ccc; 
+		    width: 500px;
+	margin:20px;
+	padding:20px;
+}
+
+.flod 
+{
+	
+	border: 1px solid #ccc; 
+	width: 500px;
+	margin:20px;
+	padding:20px;
+
+	
+}*/
+
+
+
+
+
+
+
+
+
+
+
+/* mobile style */
+
+
+@media (min-width:500px){
+	
+    	.para,p::before{
+		
+	background-color: rgb(0, 172, 230,10);
+	/* opacity: 0.3; */
+	position: absolute;
+	letter-spacing:1px;
+	font-size: 30Px;
+	/* color:white; */
+	margin-left:0px;
+	width:39em	;
+	padding:15px;
+	
+	
+	}
+	
+	
+	
+	/*Adding defenition in form the sentences*/
+	
+	
+	
+	.define 
+{
+	background-color: rgb(0, 172, 230,10);
+	/*background-color: blue;
+	opacity: 0.3;	*/
+	/*right-margin:auto;*/
+}			
+
+.define h1
+{
+	
+	/*position:absolute;*/
+
+	letter-spacing:2px;
+	font-size: 72px;
+	margin-left:auto;
+	margin-right:200px;
+	text-transform: uppercase;
+    width:4em;
+		
+}	
+	
+	
+	
+	
+	
+	
+	
+.table
+    {
+		   background-color: rgb(0, 172, 230,10);
+	       position: absolute;
+		   /*left:-60;*/
+		   /*margin-top :-80px;*/
+	       /*margin-left:-510px;*/
+           border: 10px solid rgb(0, 172, 230,10);
+		   height: 1710px; width: 150px;	
+	       margin-left:1200px;
+	
+	}
+
+	
+/*NAVIGATION*/
+
+
+
+.navi
+{
+	display:flex;
+	flex-wrap:wrap;
+    /*width: 5px;*/	
+	background-color: springgreen;
+	height:1500px;
+		border-radius: 30px;
+	
+}
+
+
+
+.navi > a
+{
+	
+	background-color:#5b9429;
+	width:auto;
+	margin:30px;
+	padding:20px;
+	border-radius: 50px;
+   margin-left:35px;
+   text-align:center;
+   text-color: springgreen;
+   
+   text-decoration:none;
+}
+
+.navi h5
+{
+	color: springgreen;
+	text-decoration:none;
+}
+
+
+.navi >a:hover {
+   background-color:  rgb(0, 172, 230,10);
+   text-decoration:none;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+	
+}
+
+                                          
+@media(max-width:980px){ 
+	
+ .para,p::before{
+		/* content:"wedone"; */
+		background-color:rgb(0, 172, 230,10);
+	/* opacity: 0.3; */
+	position: absolute;
+	letter-spacing:1px;
+	font-size: 20Px;
+	/* color:white; */
+	margin-left:0px;
+	width:auto;
+	padding:15px;
+	padding-top:290px;	
+	}
+	
+	
+	/*Adding defenition in form the sentences*/
+
+.define 
+{
+	background-color: rgb(0, 172, 230,10);
+	margin-top:-40px;
+
+	/*background-color: blue;
+	opacity: 0.3;	*/
+	/*right-margin:auto;*/
+}			
+
+.define h1
+{
+		background-color: rgb(0, 172, 230,10);
+	
+	/*position:absolute;*/
+
+	letter-spacing:2px;
+	font-size: 50px;
+	margin-left:auto;
+	margin-right:200px;
+	text-transform: uppercase;
+    width:4em;
+		
+}	
+	
+	
+	
+
+.table
+    {
+		   /* background-color: rgb(0, 172, 230,10); */
+	       position: absolute;
+		   align-items:center;
+		   /*left:-60;*/
+		   /*margin-top :-80px;*/
+	       /*margin-left:-510px;*/
+           /* border: 1px solid rgb(0, 172, 230,10); */
+		   height:auto;
+		   width: 100%;
+		   /* margin-right:-320px; */
+		   padding-right:auto;
+	       margin-left:2px;
+		   padding-left:auto;
+		/* margin-right:auto; */
+	
+	}
+
+	
+	
+/*NAVIGATION*/
+
+
+
+.navi
+{
+	display:flex;
+	flex-wrap:wrap;
+    /*width: 5px;*/	
+	background-color: springgreen;
+	width:auto;
+	height:auto;
+		border-radius: 30px;
+	margin-left: auto;
+	
+}
+
+
+
+.navi > a
+{
+	
+	background-color:#5b9429;
+	width:auto;
+	margin:5%;
+	
+	padding:2%;
+	border-radius: 50px;
+   margin-left:4%;
+   text-align:center;
+   text-color: springgreen;
+   text-decoration:none;
+   
+}
+
+.navi h5
+{
+	color: springgreen;
+	text-decoration:none;
+}
+
+
+.navi >a:hover {
+   background-color:  rgb(0, 172, 230,10);
+   text-decoration:none;
+}
+
+	
+
+	
+	
+} 
+
+
+
+
